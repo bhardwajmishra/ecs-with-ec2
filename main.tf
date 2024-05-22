@@ -18,3 +18,11 @@ module "instance" {
 module "ecs" {
   source = "./modules/ecs"
 }
+
+module "taskdefination" {
+  source = "./modules/taskdefination"
+}
+
+module "service" {
+  source = "./modules/service"
+}
